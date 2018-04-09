@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="16" result="Failed" total="16" passed="15" failed="1" inconclusive="0" skipped="0" asserts="66" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-04-09 15:29:34Z" end-time="2018-04-09 15:32:10Z" duration="156.425472">
+  <command-line><![CDATA["C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug\NUnit.Console-3.8.0\nunit3-console.exe" C:\Users\pxaxa\source\repos\DataTransferService\bin\Release\KLATencor.DataTransfer.Service.UnitTest.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1022" name="KLATencor.DataTransfer.Service.UnitTest.dll" fullname="C:\Users\pxaxa\source\repos\DataTransferService\bin\Release\KLATencor.DataTransfer.Service.UnitTest.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:32:10Z" duration="151.032907" total="16" passed="15" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="66">
+    <environment framework-version="3.6.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.3.9600.0" platform="Win32NT" cwd="C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug" machine-name="PXAXA-DT" user="pxaxa" user-domain="KLASJ" culture="en-IN" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="32" />
+    </settings>
+    <properties>
+      <property name="_PID" value="53412" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1023" name="KLATencor" fullname="KLATencor" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:32:10Z" duration="150.982847" total="16" passed="15" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="66">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1024" name="DataTransfer" fullname="KLATencor.DataTransfer" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:32:10Z" duration="150.977825" total="16" passed="15" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="66">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1025" name="Service" fullname="KLATencor.DataTransfer.Service" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:32:10Z" duration="150.973864" total="16" passed="15" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="66">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="0-1026" name="UnitTest" fullname="KLATencor.DataTransfer.Service.UnitTest" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:32:10Z" duration="150.969871" total="16" passed="15" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="66">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="0-1008" name="ConfigurationProviderTest" fullname="KLATencor.DataTransfer.Service.UnitTest.ConfigurationProviderTest" classname="KLATencor.DataTransfer.Service.UnitTest.ConfigurationProviderTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:29:40Z" duration="1.379399" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="9">
+              <test-case id="0-1009" name="ConfigurationProvider_Save_and_Read" fullname="KLATencor.DataTransfer.Service.UnitTest.ConfigurationProviderTest.ConfigurationProvider_Save_and_Read" methodname="ConfigurationProvider_Save_and_Read" classname="KLATencor.DataTransfer.Service.UnitTest.ConfigurationProviderTest" runstate="Runnable" seed="408305625" result="Passed" start-time="2018-04-09 15:29:39Z" end-time="2018-04-09 15:29:40Z" duration="1.322197" asserts="9">
+                <properties>
+                  <property name="Description" value="Check whether the ConfigurationProvider Saves IJobParameter and Loads as expected" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1000" name="IntegrationTest" fullname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" classname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2018-04-09 15:29:40Z" end-time="2018-04-09 15:32:03Z" duration="142.894847" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="8">
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1002" name="Integration_CrashHandling" fullname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_CrashHandling" methodname="Integration_CrashHandling" classname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" runstate="Runnable" seed="1267481960" result="Passed" start-time="2018-04-09 15:29:40Z" end-time="2018-04-09 15:29:51Z" duration="10.694412" asserts="2">
+                <properties>
+                  <property name="Description" value="Test the data transfer process with a crash and recovery" />
+                </properties>
+              </test-case>
+              <test-case id="0-1003" name="Integration_FullPipelineWithoutQueue" fullname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_FullPipelineWithoutQueue" methodname="Integration_FullPipelineWithoutQueue" classname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" runstate="Runnable" seed="1687051869" result="Passed" start-time="2018-04-09 15:29:51Z" end-time="2018-04-09 15:31:22Z" duration="90.584515" asserts="2">
+                <properties>
+                  <property name="Description" value="Test the whole data transfer process without queue" />
+                </properties>
+                <output><![CDATA[5
+database is locked
+database is locked
+5
+database is locked
+database is locked
+5
+database is locked
+database is locked
+]]></output>
+              </test-case>
+              <test-case id="0-1004" name="Integration_FullPipelineWithQueue" fullname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_FullPipelineWithQueue" methodname="Integration_FullPipelineWithQueue" classname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" runstate="Runnable" seed="233545323" result="Failed" start-time="2018-04-09 15:31:22Z" end-time="2018-04-09 15:31:57Z" duration="35.247899" asserts="1">
+                <properties>
+                  <property name="Description" value="Test the whole data transfer process with queue" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  Expected: directory exists
+  But was:  "C:\Users\pxaxa\source\repos\DataTransferService\bin\Release\TestNFSDestination"
+]]></message>
+                  <stack-trace><![CDATA[at NUnit.Framework.DirectoryAssert.Exists(String actual, String message, Object[] args)
+at NUnit.Framework.DirectoryAssert.Exists(String actual)
+at KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_FullPipelineWithQueue() in C:\Users\pxaxa\source\repos\DataTransferService\DataTransferService.UnitTest\IntegrationTest.cs:line 196
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[5
+database is locked
+database is locked
+]]></output>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[  Expected: directory exists
+  But was:  "C:\Users\pxaxa\source\repos\DataTransferService\bin\Release\TestNFSDestination"
+]]></message>
+                    <stack-trace><![CDATA[at NUnit.Framework.DirectoryAssert.Exists(String actual, String message, Object[] args)
+at NUnit.Framework.DirectoryAssert.Exists(String actual)
+at KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_FullPipelineWithQueue() in C:\Users\pxaxa\source\repos\DataTransferService\DataTransferService.UnitTest\IntegrationTest.cs:line 196
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+              <test-case id="0-1001" name="Integration_TestRESTEndPoints" fullname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest.Integration_TestRESTEndPoints" methodname="Integration_TestRESTEndPoints" classname="KLATencor.DataTransfer.Service.UnitTest.IntegrationTest" runstate="Runnable" seed="1443513308" result="Passed" start-time="2018-04-09 15:31:57Z" end-time="2018-04-09 15:32:03Z" duration="6.352077" asserts="3">
+                <properties>
+                  <property name="Description" value="We will check the REST End points exposed by our service" />
+                </properties>
+                <output><![CDATA[Server started at : http://localhost:9000/
+]]></output>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1005" name="JobManagerTest" fullname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest" classname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-04-09 15:32:03Z" end-time="2018-04-09 15:32:04Z" duration="1.195930" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="22">
+              <test-case id="0-1006" name="JobManager_IJobInput_Put_and_Get" fullname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest.JobManager_IJobInput_Put_and_Get" methodname="JobManager_IJobInput_Put_and_Get" classname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest" runstate="Runnable" seed="311544651" result="Passed" start-time="2018-04-09 15:32:03Z" end-time="2018-04-09 15:32:04Z" duration="0.575759" asserts="11">
+                <properties>
+                  <property name="Description" value="Check whether the JobManager Puts and Gets IJobInput as expected" />
+                </properties>
+              </test-case>
+              <test-case id="0-1007" name="JobManager_IJobInput_Put_and_Get_DifferentInstance" fullname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest.JobManager_IJobInput_Put_and_Get_DifferentInstance" methodname="JobManager_IJobInput_Put_and_Get_DifferentInstance" classname="KLATencor.DataTransfer.Service.UnitTest.JobManagerTest" runstate="Runnable" seed="842970282" result="Passed" start-time="2018-04-09 15:32:04Z" end-time="2018-04-09 15:32:04Z" duration="0.611972" asserts="11">
+                <properties>
+                  <property name="Description" value="Check whether the JobManager Puts and Gets IJobInput by different Instances as expected" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1010" name="RepositoryHelperTest" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-04-09 15:32:04Z" end-time="2018-04-09 15:32:07Z" duration="2.333920" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="8">
+              <test-case id="0-1013" name="RepositoryHelper_Delete" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest.RepositoryHelper_Delete" methodname="RepositoryHelper_Delete" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest" runstate="Runnable" seed="1930600929" result="Passed" start-time="2018-04-09 15:32:04Z" end-time="2018-04-09 15:32:05Z" duration="0.744322" asserts="3">
+                <properties>
+                  <property name="Description" value="Check whether RepositoryHelper is able to Delete" />
+                </properties>
+                <reason>
+                  <message><![CDATA[Success]]></message>
+                </reason>
+              </test-case>
+              <test-case id="0-1011" name="RepositoryHelper_Insert" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest.RepositoryHelper_Insert" methodname="RepositoryHelper_Insert" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest" runstate="Runnable" seed="2127929518" result="Passed" start-time="2018-04-09 15:32:05Z" end-time="2018-04-09 15:32:06Z" duration="0.639336" asserts="2">
+                <properties>
+                  <property name="Description" value="Check whether RepositoryHelper is able to do Insert" />
+                </properties>
+                <reason>
+                  <message><![CDATA[Success]]></message>
+                </reason>
+              </test-case>
+              <test-case id="0-1012" name="RepositoryHelper_Update" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest.RepositoryHelper_Update" methodname="RepositoryHelper_Update" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryHelperTest" runstate="Runnable" seed="1210996317" result="Passed" start-time="2018-04-09 15:32:06Z" end-time="2018-04-09 15:32:07Z" duration="0.938231" asserts="3">
+                <properties>
+                  <property name="Description" value="Check whether RepositoryHelper is able to do Update" />
+                </properties>
+                <reason>
+                  <message><![CDATA[Success]]></message>
+                </reason>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1014" name="RepositoryTest" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2018-04-09 15:32:07Z" end-time="2018-04-09 15:32:10Z" duration="2.788048" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="18">
+              <test-case id="0-1018" name="Repository_GetMaxJobId" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest.Repository_GetMaxJobId" methodname="Repository_GetMaxJobId" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" runstate="Runnable" seed="2053284457" result="Passed" start-time="2018-04-09 15:32:07Z" end-time="2018-04-09 15:32:07Z" duration="0.642093" asserts="2">
+                <properties>
+                  <property name="Description" value="Check whether the Repository-GetMaxJobId works as expected" />
+                </properties>
+              </test-case>
+              <test-case id="0-1017" name="Repository_MoveForPurge" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest.Repository_MoveForPurge" methodname="Repository_MoveForPurge" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" runstate="Runnable" seed="1923792109" result="Passed" start-time="2018-04-09 15:32:07Z" end-time="2018-04-09 15:32:08Z" duration="0.659645" asserts="2">
+                <properties>
+                  <property name="Description" value="Check whether the Repository-MoveForPurge works as expected" />
+                </properties>
+              </test-case>
+              <test-case id="0-1016" name="Repository_MoveForTransfer" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest.Repository_MoveForTransfer" methodname="Repository_MoveForTransfer" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" runstate="Runnable" seed="1577611112" result="Passed" start-time="2018-04-09 15:32:08Z" end-time="2018-04-09 15:32:09Z" duration="0.935621" asserts="2">
+                <properties>
+                  <property name="Description" value="Check whether the Repository-MoveForTransfer works as expected" />
+                </properties>
+              </test-case>
+              <test-case id="0-1015" name="Repository_Save_and_Load" fullname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest.Repository_Save_and_Load" methodname="Repository_Save_and_Load" classname="KLATencor.DataTransfer.Service.UnitTest.RepositoryTest" runstate="Runnable" seed="137110405" result="Passed" start-time="2018-04-09 15:32:09Z" end-time="2018-04-09 15:32:10Z" duration="0.534684" asserts="12">
+                <properties>
+                  <property name="Description" value="Check whether the Repository Save IJobInput and Loads as expected" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1019" name="TransferrerTest" fullname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest" classname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest" runstate="Runnable" testcasecount="2" result="Passed" start-time="2018-04-09 15:32:10Z" end-time="2018-04-09 15:32:10Z" duration="0.349263" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+              <test-case id="0-1021" name="FTPSender_Upload_and_Download" fullname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest.FTPSender_Upload_and_Download" methodname="FTPSender_Upload_and_Download" classname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest" runstate="Runnable" seed="847634902" result="Passed" start-time="2018-04-09 15:32:10Z" end-time="2018-04-09 15:32:10Z" duration="0.330157" asserts="1">
+                <properties>
+                  <property name="Description" value="Check whether FTPSender is able to Upload files and Download it correctly to server ftp://localhost with KT credentials" />
+                </properties>
+              </test-case>
+              <test-case id="0-1020" name="NFSSender_Upload_and_Download" fullname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest.NFSSender_Upload_and_Download" methodname="NFSSender_Upload_and_Download" classname="KLATencor.DataTransfer.Service.UnitTest.TransferrerTest" runstate="Runnable" seed="1054721734" result="Passed" start-time="2018-04-09 15:32:10Z" end-time="2018-04-09 15:32:10Z" duration="0.010980" asserts="0">
+                <properties>
+                  <property name="Description" value="Check whether NFSSender is able to Upload files and Download it correctly" />
+                </properties>
+                <reason>
+                  <message><![CDATA[Passed]]></message>
+                </reason>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

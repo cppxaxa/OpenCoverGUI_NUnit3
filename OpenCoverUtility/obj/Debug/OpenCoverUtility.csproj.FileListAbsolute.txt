@@ -1,0 +1,11 @@
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug\OpenCoverUtility.exe.config
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug\OpenCoverUtility.exe
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Debug\OpenCoverUtility.pdb
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.csprojResolveAssemblyReference.cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.OpenCoverUtility.resources
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.Properties.Resources.resources
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.csproj.GenerateResource.Cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.csproj.CoreCompileInputs.cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.exe
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.pdb
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverUtility\obj\Debug\OpenCoverUtility.Browser.resources

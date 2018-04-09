@@ -1,0 +1,5 @@
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Release\OpenCoverLibraryFramework.dll
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Release\OpenCoverLibraryFramework.pdb
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverLibraryFramework\obj\Release\OpenCoverLibraryFramework.csproj.CoreCompileInputs.cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverLibraryFramework\obj\Release\OpenCoverLibraryFramework.dll
+C:\Users\pxaxa\source\repos\OpenCoverUtility\OpenCoverLibraryFramework\obj\Release\OpenCoverLibraryFramework.pdb

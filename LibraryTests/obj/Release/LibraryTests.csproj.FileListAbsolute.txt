@@ -1,0 +1,6 @@
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Release\LibraryTests.dll
+C:\Users\pxaxa\source\repos\OpenCoverUtility\bin\Release\LibraryTests.pdb
+C:\Users\pxaxa\source\repos\OpenCoverUtility\LibraryTests\obj\Release\LibraryTests.csprojResolveAssemblyReference.cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\LibraryTests\obj\Release\LibraryTests.csproj.CoreCompileInputs.cache
+C:\Users\pxaxa\source\repos\OpenCoverUtility\LibraryTests\obj\Release\LibraryTests.dll
+C:\Users\pxaxa\source\repos\OpenCoverUtility\LibraryTests\obj\Release\LibraryTests.pdb
